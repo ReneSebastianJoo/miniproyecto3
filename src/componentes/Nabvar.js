@@ -1,15 +1,15 @@
 import React from 'react'
 
-const Nabvar = () => {
+const Navbar = () => {
     return (
-        <div>
-            <nav className="navbar navbar-light bg-primary">
-                 <h4 className="navbar-text" text-light>
-    Navbar text with an inline element
-  </h4>
-</nav>
-        </div>
+        <nav className="navbar navbar-light bg-primary">
+            <div className="container-fluid">
+                <h4 className="navbar-text text-light">
+                    Lista de tareas
+                </h4>
+            </div>
+        </nav>
     )
 }
 
-export default Nabvar
+export default Navbar;

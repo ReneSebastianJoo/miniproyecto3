@@ -6,10 +6,10 @@ import TareaCard from "../src/componentes/TareaCard"
 function App() {
   return (
     <div>
-      <Main />
       <Navbar />
-      <TareaCard />
-      <h1>Holi </h1>
+      <Main />
+      
+      
     </div>
   );
 }
